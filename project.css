@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    background: #1d2026;
+    width: 100%;
+   min-height:100vh;
+    caret-color: #fff;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+.navbar .menu{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.navbar .logo{
+    width: 160px;  
+}
+
+.navbar ul{
+    flex: 1;
+    text-align: right;
+    justify-content: center;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.button{
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s;
+
+}
+
+ .button span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin: 1px;
+    transition: background 0.5s , margin-left 0.5s;
+
+}
+.lamp{
+    position: absolute;
+    top: -10px;
+    left: 30%;
+    width: 130px;
+
+}
+.lamps{
+    width: 80%;
+      
+}
+.light{
+    position: absolute;
+    width: 400px;
+    top: 198px;
+    left: -154px;
+    opacity: 0;
+    /* visibility: hidden; */
+    transition: opacity 0.5s;
+}
+
+.text-container{
+max-width: 600px;
+margin-top: 7%;
+margin-left: 50%;
+
+   
+}
+.text-container h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+}
+.active{
+    background: green;
+
+}
+
+.active span{
+    background: #fff;
+    margin-left:32px;
+
+}
+.on{
+    opacity: 1;
+    /* visibility: visible; */
+}
